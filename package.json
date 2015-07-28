@@ -1,0 +1,22 @@
+{
+  "name": "synccloud.confuguration-client",
+  "description": "Client to configuration manager service",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "ghooks": "^0.3.2",
+    "mocha": "^2.2.5"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run test"
+    }
+  }
+}
