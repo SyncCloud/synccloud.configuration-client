@@ -40,7 +40,7 @@ describe('synccloud-configration-client', function() {
 
         it('should fail with bad_url', function(done) {
             //check for error code matching
-        	expect(function() { Client().fetch(); }).to.throw(error);
+            expect(function() { Client().fetch(); }).to.throw(error);
         	expect(function() { Client().fetch({service: 'a'}); }).to.throw(error);
         	expect(function() { Client().fetch({env: 'a'}); }).to.throw(error);
         	expect(function() { Client().fetch({version: 'a'}); }).to.throw(error);
