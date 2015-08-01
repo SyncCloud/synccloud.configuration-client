@@ -1,5 +1,5 @@
 {
-  "name": "synccloud.confuguration-client",
+  "name": "synccloud.configuration-client",
   "description": "Client to configuration manager service",
   "main": "lib/index.js",
   "version": "0.1.0",
