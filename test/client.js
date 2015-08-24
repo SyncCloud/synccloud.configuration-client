@@ -20,6 +20,11 @@ describe('synccloud-configration-client', function() {
                 }, done)
                 .catch(done);
         });
+
+        it('should fail if cannot obtain config by timeout', function(done) {
+            done(); //todo
+        });
+
         it('should connect to same socket', function(done) {
             var c = Client({url: configUrl});
             c.connect().then(function (s1) {
