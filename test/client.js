@@ -4,7 +4,7 @@ var expect = require('chai').expect,
     error = require('../lib/error'),
     Client = require('../lib/client');
 
-describe('synccloud-configration-client', function() {
+describe.skip('synccloud-configration-client', function() {
 	describe('fetch', function() {
         var configUrl = $url.resolve(BASE_URL, '/config/test-service/master@production'),
             expectedConfig = {
